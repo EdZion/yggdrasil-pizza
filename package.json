@@ -1,0 +1,23 @@
+{
+  "name": "yggdrasil-pizza",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eleventy.js",
+  "scripts": {
+    "start": "eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdZion/yggdrasil-pizza.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EdZion/yggdrasil-pizza/issues"
+  },
+  "homepage": "https://github.com/EdZion/yggdrasil-pizza#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}
