@@ -1,8 +1,9 @@
-const toppings = ['Tomatsås, Ost, Skinka, Champinjoner, Ananas'];
-const category = ['Klassiker, Inbakad, Rullpizza, Kebab'];
+const toppings = ['Tomatsås', 'Ost', 'Skinka', 'Champinjoner', 'Ananas'];
+const category = ['Klassiker', 'Inbakad', 'Rullpizza', 'Kebab'];
 
 module.exports = () => {
   return {
+    category,
     items: [
       {
         id: 1,
@@ -28,7 +29,7 @@ module.exports = () => {
       {
         id: 4,
         name: 'Hawaii',
-        category: category[0],
+        category: category[1],
         price: 80,
         toppings: [toppings[0], toppings[1], toppings[2], toppings[4]],
       },
