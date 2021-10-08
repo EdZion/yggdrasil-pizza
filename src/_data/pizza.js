@@ -3,7 +3,6 @@ const category = ['Klassiker', 'Inbakad', 'Rullpizza', 'Kebab'];
 
 module.exports = () => {
   return {
-    category,
     items: [
       {
         id: 1,
