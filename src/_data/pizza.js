@@ -1,4 +1,4 @@
-const toppings = ['Tomatsås', 'Ost', 'Skinka', 'Champinjoner', 'Ananas'];
+const toppings = ['Tomatsås', 'Ost', 'Skinka', 'Champinjoner', 'Ananas', 'Räkor', 'Musslor', 'Krabba', 'Prosciutto', 'Parma Skinka', 'Pancetta'];
 const category = ['Klassiker', 'Inbakad', 'Rullpizza', 'Kebab'];
 
 module.exports = () => {
@@ -28,9 +28,37 @@ module.exports = () => {
       {
         id: 4,
         name: 'Hawaii',
-        category: category[1],
+        category: category[0],
         price: 80,
         toppings: [toppings[0], toppings[1], toppings[2], toppings[4]],
+      },
+      {
+        id: 5,
+        name: 'Calzone',
+        category: category[1],
+        price: 85,
+        toppings: [toppings[0], toppings[1], toppings[2]],
+      },
+      {
+        id: 6,
+        name: 'Vikingaskepp',
+        category: category[1],
+        price: 100,
+        toppings: [toppings[0], toppings[1], toppings[2], toppings[5]],
+      },
+      {
+        id: 7,
+        name: 'Harald',
+        category: category[1],
+        price: 110,
+        toppings: [toppings[0], toppings[1], toppings[2], toppings[5], toppings[6], toppings[7]],
+      },
+      {
+        id: 8,
+        name: 'Särimner',
+        category: category[1],
+        price: 137,
+        toppings: [toppings[0], toppings[1], toppings[2], toppings[8], toppings[9], toppings[10]],
       },
     ],
   };
