@@ -1,17 +1,14 @@
-const svgContents = require("eleventy-plugin-svg-contents");
+const svgSprite = require("eleventy-plugin-svg-sprite");
 
-module.exports = function(eleventyConfig) {
-  eleventyConfig.addPlugin(svgContents);
-};
-
-module.exports = config => {
+module.exports = function (eleventyConfig) {
+  eleventyConfig.addPassthroughCopy("./src/images");
   return {
-    markdownTemplateEngine: 'njk',
-    dataTemplateEngine: 'njk',
-    htmlTemplateEngine: 'njk',
+    markdownTemplateEngine: "njk",
+    dataTemplateEngine: "njk",
+    htmlTemplateEngine: "njk",
     dir: {
-      input: 'src',
-      output: 'dist'
-    }
+      input: "src",
+      output: "dist",
+    },
   };
 };
