@@ -1,9 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
-//css: font-family: 'Noto Sans', sans-serif; 
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+//css: font-family: 'Noto Sans', sans-serif;
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Runic&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Runic&display=swap");
 //css: font-family: 'Noto Sans Runic', sans-serif;
 
-html {
-  font-family: 'Noto Sans', sans-serif;
+@font-face {
+  font-family: norse;
+  src: url(../fonts/Norse.otf);
 }
+
+
+html {
+  font-family: "Noto Sans", sans-serif;
+  background-color: #1e1e24;
+  color: white;
+  font-size: 16px;
+}
+h1 {
+  color: #7c90db;
+  font-size: 6rem;
+  font-family: norse;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: norse; 
+  font-size: 2rem; 
+  font-weight: bold;
+}
+
+
+h3 {  
+  font-family: norse;
+  font-size: 1.5rem;
+  font-weight: normal; 
+}
+ 
+h4{
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+a{
+  font-family: norse;
+  font-size: 1.2rem;
+}
+ 
