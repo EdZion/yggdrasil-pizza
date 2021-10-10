@@ -1,11 +1,15 @@
+
 {% if pizza.items %}
         <ul class="meny" id="meny">
-             {# {%for item in category%} 
-                <h1>{{item.category}}</h1> #}
+             <div class="rune-list">
+                <h2 class="rune">ᛒᛁᛋᛋᛅ</h2>
+                <h2>Pizza</h2>
+                <h2 class="rune">ᛒᛁᛋᛋᛅ</h2>
+                </div>
                 {% for item in pizza.items %}
                     <h4><div>{{ item.id }} {{item.name}}</div> <div>{{item.price}}kr</div></h4>
                     <p> {{item.toppings}} </p> 
                 {% endfor %}
-             {# {% endfor %} #}
+            
         </ul>
 {% endif %}
