@@ -1,4 +1,4 @@
 ---
-title: 'Hello, world'
+title: 'YGGDRASIL'
 layout: 'layouts/home.html'
 ---
