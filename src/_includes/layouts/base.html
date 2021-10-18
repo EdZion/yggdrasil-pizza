@@ -8,8 +8,10 @@
     <link rel="stylesheet" href="{{ '/css/main.css' }}" />
   </head>
   <body>
-    {% include "components/navigation.html" %} 
+    {% include "components/navigation.html" %}
+    <main> 
       {% block content %}
       {% endblock %}
+    </main>
   </body>
 </html>
