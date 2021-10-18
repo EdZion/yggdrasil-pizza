@@ -1,15 +1,23 @@
-
 {% if pizza.items %}
-        <ul class="meny" id="meny">
-             <div class="rune-list">
-                <h2 class="rune">ᛒᛁᛋᛋᛅ</h2>
-                <h2>Pizza</h2>
-                <h2 class="rune">ᛒᛁᛋᛋᛅ</h2>
-                </div>
-                {% for item in pizza.items %}
-                    <h4><div>{{ item.id }} {{item.name}}</div> <div>{{item.price}}kr</div></h4>
-                    <p> {{item.toppings}} </p> 
-                {% endfor %}
-            
-        </ul>
+<ul class="meny" id="meny">
+  
+  {% for category in pizza.category %}
+    <div class="rune-list">
+      <h2 class="rune">ᛒᛁᛋᛋᛅ</h2>
+      <h2> {{ category }} </h2>
+      <h2 class="rune">ᛒᛁᛋᛋᛅ</h2>
+    </div>
+
+    {% for item in pizza.items %}
+      {% if (item.category == category) %}
+        <h4>
+          <div>{{ item.id }} {{item.name}}</div>
+          <div>{{item.price}}kr</div>
+        </h4>
+        <p>{{item.toppings}}</p>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+  
+</ul>
 {% endif %}
