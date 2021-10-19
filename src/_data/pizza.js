@@ -87,7 +87,7 @@ module.exports = () => {
         name: 'Allan Special',
         category: category[3],
         price: 100,
-        toppings: [toppings[0], toppings[1], toppings[18], toppings[19], ' kärlek'],
+        toppings: [toppings[0], toppings[1], toppings[18], toppings[19], ' Kärlek'],
       },
     ],
   };
