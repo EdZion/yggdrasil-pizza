@@ -5,10 +5,12 @@
 //css: font-family: 'Noto Sans Runic', sans-serif;
 
 @font-face {
-  font-family: norse;
-  src: url(../fonts/Norse.otf);
+  font-family: 'norse';
+  src: url('../fonts/norse/norse-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/norse/norse-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/norse/norse-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Norse.otf') format('opentype');
 }
-
 
 html {
   font-family: "Noto Sans", sans-serif;
@@ -16,6 +18,7 @@ html {
   color: white;
   font-size: 16px;
 }
+
 h1 {
   color: #7c90db;
   font-size: 6rem;
@@ -48,6 +51,6 @@ h4{
 
 a{
   font-family: norse;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
  
