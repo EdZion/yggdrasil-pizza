@@ -1,4 +1,4 @@
-const toppings = ['Tomatsås', ' Ost', ' Skinka', ' Champinjoner', ' Ananas', ' Räkor', ' Musslor', ' Krabba', ' Prosciutto', ' Parma Skinka', ' Pancetta', ' Kyckling', ' Salami', ' Salad', ' Lök', ' Gurka', ' Tomat', ' Peperoni', ' Kebab', ' Kebabsås'];
+const toppings = ['Tomatsås', ' Ost', ' Skinka', ' Champinjoner', ' Ananas', ' Räkor', ' Musslor', ' Krabba', ' Prosciutto', ' Parma Skinka', ' Pancetta', ' Kyckling', ' Salami', ' Sallad', ' Lök', ' Gurka', ' Tomat', ' Peperoni', ' Kebab', ' Kebabsås'];
 const category = ['Klassiker', 'Inbakad', 'Rullpizza', 'Kebab'];
 
 module.exports = () => {
