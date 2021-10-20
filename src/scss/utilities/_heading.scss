@@ -1,0 +1,17 @@
+.heading{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 3rem;
+  width: 100%;
+}
+
+.rune{
+  height: 2.4rem;
+  color: #6D6D6D;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-width: 1px;
+  margin: 1rem 0 1rem 0;
+}

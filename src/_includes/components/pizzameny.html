@@ -1,8 +1,8 @@
 {% if pizza.items %}
-<ul class="meny" id="meny">
+<div class="meny" id="meny">
   
   {% for category in pizza.category %}
-    <div class="rune-list">
+    <div class="heading">
       <h2 class="rune">ᛒᛁᛋᛋᛅ</h2>
       <h2> {{ category }} </h2>
       <h2 class="rune">ᛒᛁᛋᛋᛅ</h2>
@@ -19,5 +19,5 @@
     {% endfor %}
   {% endfor %}
   
-</ul>
+</div>
 {% endif %}
