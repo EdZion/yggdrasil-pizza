@@ -1,16 +1,21 @@
 .navbar {
+  background-color: #1E1E24;
+  top: 0;
+  position: fixed;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   list-style: none;
   padding-left: 5rem;
   padding-right: 5rem;
-  padding-top: 2rem;
+  padding-top: 1rem;
   padding-bottom: 1rem;
   margin: 0 auto 0 auto;
-  max-width: 30rem;
+  width: 100%;
 }
 
 .navbar a {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   text-decoration: none;
   color: white;
 }
